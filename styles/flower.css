@@ -25,6 +25,15 @@
     color:white;
     border:0px;
 border-radius: 5px;}
+
+.featured{
+    text-align: center;
+     max-width: 433px;
+     margin:50px auto
+ }
+ section{
+    margin-top:100px;
+ }
 /* banner style */
 .banner{
     display: flex;
@@ -56,4 +65,49 @@ header{
 
 .banner-img-con img{
     width: 100%;
+}
+
+
+
+/* feature related style */
+
+.feature{
+    text-align: center;
+    max-width: 433px;
+    margin:20px auto
+}
+
+
+.feature-title{
+    font-size: 29px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.flower-img-container{
+    display: flex;
+    gap:20px;
+    text-align: center;
+}
+
+.flower-img{
+    background-color: #e554731e;
+    border-radius: 200px 200px 0px 0px;
+    padding:20px 30px   0px 30px;
+    justify-content:space-between;
+    align-items: end;
+    height: 392px;
+    display: flex ;
+    margin-bottom: 20px;
+}
+
+.flower-img img{
+    width: 100%;
+}
+
+
+.flower p{
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: underline;
 }
