@@ -10,12 +10,14 @@
     width: 73%;
     max-width: 1420px;
     margin:0px auto;
+    text-align: center;
 }
 
 .primary-description{
     font-size: 13px;
     font-weight: 400px;
     color:#27272778;
+    /* margin-bottom: 30px; */
 }
 .primary-btn{
     font-size: 14px;
@@ -67,40 +69,37 @@ header{
     width: 100%;
 }
 
-
+.feature{
+    max-width: 433px;
+    margin:0px auto
+}
 
 /* feature related style */
 
-.feature{
-    text-align: center;
-    max-width: 433px;
-    margin:20px auto
-}
-
-
-.feature-title{
-    font-size: 29px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
 
 .flower-img-container{
     display: flex;
     gap:20px;
-    text-align: center;
+    align-items: center;
+    justify-content: end;
+    margin-top: 30px;
+   
+    
 }
 
 
 .flower-img{
-    background-color: #e554731e;
-    border-radius: 200px 200px 0px 0px;
-    padding:40px 30px   0px 30px;
-    justify-content:space-between;
-    align-items: end;
-    height: 500px;
-    display: flex ;
-    margin-bottom: 20px;
+    border-radius: 219px 219px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+
+
+
+    justify-content: end;
+    padding:30px 25px 0px 25px;
+    height: 392px;
+    display: flex;
 }
+
 
 .flower-img img{
     width: 100%;
@@ -109,6 +108,7 @@ header{
 
 .flower p{
     font-size: 17px;
-    font-weight: 600;
-    text-decoration: underline;
+    margin-top: 12px;
+    font-weight: 700;
+   text-decoration: underline;
 }
