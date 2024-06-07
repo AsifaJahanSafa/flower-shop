@@ -157,3 +157,16 @@ header{
     .hot-deal .hot-des{
         margin:20px 0px
     }
+
+    /* insta section styling */
+    .insta-img-container{
+        display: flex;
+        /* border:1px solid red; */
+        margin-top:20px;
+        justify-content: space-between;
+        gap:10px
+    }
+
+    .inta-img img{
+        width: 100%;
+    }
