@@ -138,3 +138,22 @@ header{
 
 
     }
+
+    /* hot-deal-container */
+
+    .hot-deal-container{
+        background: rgba(229, 84, 115, 0.05);
+
+
+    }
+
+    .hot-deal{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding:20px 0px
+    }
+
+    .hot-deal .hot-des{
+        margin:20px 0px
+    }
