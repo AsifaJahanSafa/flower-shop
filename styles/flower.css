@@ -161,8 +161,7 @@ header{
     /* insta section styling */
     .insta-img-container{
         display: flex;
-        /* border:1px solid red; */
-        margin-top:20px;
+      margin-top:20px;
         justify-content: space-between;
         gap:10px
     }
