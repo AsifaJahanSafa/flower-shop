@@ -100,14 +100,16 @@ header{
     .flower-img{
         background-color: #e5547322;
         border-radius: 200px 200px 0px 0px;
-        padding:30px 25px 0px;
-       height: 400px;
-        display: flex;
-        align-items: end;
+        padding:60px 25px 0px;
+       max-height: 500px;
+      display: flex;
+       
+       
     }
 
     .flower-img img{
         width: 100%;
+      
     }
 
     .flower p{
