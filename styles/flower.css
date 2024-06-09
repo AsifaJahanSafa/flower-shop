@@ -205,3 +205,25 @@ header{
 footer{
     background: #111010;
 }
+
+.footer-con *{
+    color:white;
+text-align: center;
+}
+
+
+.footer-con{
+    padding:93px 0px;
+    margin-top:30px
+}
+
+
+.footer-title{
+    color: #E55473
+}
+.reserver{
+    color: rgba(255, 255, 255, 0.40);
+
+    font-size: 12px;
+    margin-top: 20px;
+}
