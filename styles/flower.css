@@ -81,8 +81,13 @@ header{
     margin:0px auto
 }
 
+.feature-title{
+    font-size: 29px;
+    font-weight: 800;
+    margin-bottom:30px;
+}
 /* feature related style */
-
+   
     .flower-img-container{
         display: flex;
         gap:20px;
@@ -169,3 +174,36 @@ header{
     .inta-img img{
         width: 100%;
     }
+
+
+    /* latest deal styling */
+   #Latest-deal-con{
+       background-image: url('./Flower Asset/Rectangle\ 9.png');
+       padding:88px 0;
+    }
+
+
+    #Latest-deal-con form{
+        display: flex;
+        max-width:800px;
+        margin:30px auto;
+        padding:20px auto:
+    }
+   
+    
+    
+#Latest-deal-con  #form  {
+   padding:16px;
+   border:0px;
+   border-radius: 8px;
+   flex-grow: 1;
+   max-width: 600px;
+   margin-right: 10px;
+
+    
+
+   
+   
+
+  
+}
