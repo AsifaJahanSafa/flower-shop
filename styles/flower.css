@@ -219,11 +219,13 @@ text-align: center;
 
 
 .footer-title{
-    color: #E55473
+    color: #E55473;
+   margin-right: 10px;
 }
 .reserver{
     color: rgba(255, 255, 255, 0.40);
 
     font-size: 12px;
     margin-top: 20px;
+   
 }
