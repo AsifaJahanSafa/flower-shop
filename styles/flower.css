@@ -59,11 +59,10 @@ border-radius: 5px;}
 }
 
 
-.banner-text-con{
+.banner-text-con {
     max-width: 516px;
-
+    text-align: left;
 }
-
 header{
     background-color: #e554731b;
 }
@@ -80,6 +79,7 @@ header{
     max-width: 433px;
     margin:0px auto
 }
+
 
 .feature-title{
     font-size: 29px;
@@ -154,6 +154,10 @@ header{
 
     }
 
+    .hot-deal-img img {
+        width: 100%;
+    }
+
     .hot-deal{
         display:flex;
         justify-content: center;
@@ -192,7 +196,13 @@ header{
         padding:20px auto;
     }
    
-    
+    #Latest-deal-con {
+        background-image: url("./FlowerAsset/Rectangle 9.png");
+        background-repeat: no-repeat;
+        padding: 80px 0;
+        background-size: cover;
+        background-position: center center;
+    }
     
 #Latest-deal-con  #form  {
    padding:16px;
@@ -204,6 +214,41 @@ header{
 
 }
 
+.from{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-top: 20px
+   
+   
+;
+}
+.from-input{
+   grid-column:span 2;
+   max-height: 80px;
+ 
+   width: 100%;
+   background-color: white;
+   display: flex;
+   flex-grow: 1;
+   border-radius: 8px;
+  
+
+}
+.input{
+ max-width:550px;
+   
+   
+    
+}
+
+.from-button{
+    grid-column: span 1;
+}
+
+.from-input input{
+    outline: none;
+}
+/*footer */
 footer{
     background: #111010;
 }
@@ -230,4 +275,83 @@ text-align: center;
     font-size: 12px;
     margin-top: 20px;
    
+}
+@media screen and (max-width:576px) {
+
+    .banner {
+       
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .banner-title {
+        font-size: 30px;
+       
+    }
+
+    .flower-img-container,.img-icon ,  .hot-deal,.insta-img-container {
+     
+        flex-direction: column;
+    }
+
+
+    #Latest-deal-con form {
+      
+      
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feature-title {
+        font-size: 24px;}
+    #Latest-deal-con #form {
+       
+        margin-bottom: 20px;
+    }
+
+    .footer-con {
+        padding: 93px 37px;}
+
+        #Latest-deal-con {
+           
+            padding: 20px 0;
+          
+          background-position:left ;
+        }
+
+        .feature-title,.primary-description {
+          
+           
+            margin-bottom: 15px;
+        }
+
+        #Latest-deal-con #form,.primary-btn {
+            padding: 11px;}
+
+            .primary-description {
+                font-size: 10px;}
+
+                .from{
+                    display: grid;
+                    grid-template-columns:1fr;
+                   
+                   margin: 20px 
+                    
+                    
+                 ;
+                 }
+                 .from-input{
+                    grid-column:span 1;
+                    max-height:40px;
+                    
+                    margin-bottom: 20px;
+                 
+                 }
+                 
+                 
+                 
+                 .from-input input{
+                     outline: none;
+                 }
 }
